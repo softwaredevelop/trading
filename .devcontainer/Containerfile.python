@@ -31,8 +31,8 @@ RUN \
     setuptools \
     wheel; \
     pip3 install --disable-pip-version-check --no-cache-dir --user --upgrade --force-reinstall \
-    pipx \
-    ipykernel
+    ipykernel \
+    pipx
 
 RUN \
     /usr/local/bin/python3 -m pipx install --system-site-packages --pip-args "--no-cache-dir --force-reinstall" autopep8; \
