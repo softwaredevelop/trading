@@ -1,5 +1,5 @@
 {
-	"name": "python-dev",
+	"name": "trading-dev",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
@@ -36,6 +36,6 @@
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,Z",
 	"workspaceFolder": "/workspace",
 
-	"runArgs": ["--userns=keep-id", "--name=python-dev"],
+	"runArgs": ["--userns=keep-id", "--name=trading-dev"],
 	"containerUser": "vscode"
 }
